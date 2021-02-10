@@ -10,6 +10,9 @@ for (let i=0; i<9; i++) {
 
 console.log(suma);
 
-// for (const note of notas){
-//     console.log(note);
-// };
+let sume = 0;
+for (const note of notas){
+    console.log(note);
+    sume += note;
+};
+console.log(sume);
